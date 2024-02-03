@@ -1,0 +1,19 @@
+.oddClass {
+    background-color: rgb(255, 182, 193);
+    font-family: 'Verdana', 'Dejavu Sans', 'sans-serif';
+}
+
+#id1 {
+    color: #07787e;
+    font-size: 36px;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+#id2 {
+    background-color: #32CD32;
+    font-size: 24px;
+    font-weight: bold;
+}
