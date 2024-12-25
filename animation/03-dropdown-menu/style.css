@@ -27,6 +27,28 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
+  transform-origin: top;
+  animation: 2s bounce ease-in-out 1;
 }
 
+@keyframes bounce {
+  from {
+    transform: scaleY(0);
+  }
 
+  25% {
+    transform: scaleY(2);
+  }
+
+  50% {
+    transform: scaleY(0.5);
+  }
+
+  75% {
+    transform: scaleY(2);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
